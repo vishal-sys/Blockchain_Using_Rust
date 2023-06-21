@@ -19,7 +19,7 @@ pub struct Block {
 }
 
 impl Block {
-    // Create a new block. The hash will be calculated and set automatically.
+    // Create a new block. The hash will be calculated and set Automatically.
     pub fn new (
         index: u64,
         previous_hash: String,
